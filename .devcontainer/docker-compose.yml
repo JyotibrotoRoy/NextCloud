@@ -11,7 +11,7 @@ services:
     command: /var/www/html/.devcontainer/entrypoint.sh
     ports:
       - 80:80
-      - 8080:8080
+      #- 8080:8080
       - 8025:8025
 
   db:
